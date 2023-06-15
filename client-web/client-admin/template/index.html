@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- SideBar -->
+  <div class="flex">
+    <div class="drawer drawer-mobile w-52">
+      <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content">
+        <!-- Page content here -->
+        <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+
+
+        <!-- BATAS -->
+      </div>
+      <div class="drawer-side">
+        <label for="my-drawer-2" class="drawer-overlay"></label>
+        <ul class="menu p-4 bg-base-100 text-base-content">
+          <!-- Sidebar content here -->
+          <li><a>Sidebar Item 1</a></li>
+          <li><a>Sidebar Item 2</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="w-2/3">
+      <div class="w-full bg-slate-400 flex flex-col justify-center items-center p-3">
+        <div class="w-10/12 flex justify-between items-center">
+          <p class="text-xl font-bold">Product List</p>
+          <label for="new-product-modal" class="p-3 text-sm rounded-lg bg-slate-700 text-white cursor-pointer">Add New
+            Product</label>
+
+          <input type="checkbox" id="new-product-modal" class="modal-toggle" />
+          <div class="modal">
+            <div class="modal-box relative">
+              <label for="new-product-modal" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+
+              <p class="font-bold text-2xl text-center">Add New Product</p>
+              <form class="flex flex-col gap-y-7">
+                <div class="flex flex-col">
+                  <label class="label">
+                    <span class="label-text">Name</span>
+                  </label>
+                  <input type="text" class="input input-bordered w-full" />
+                </div>
+
+                <div class="flex flex-col">
+                  <label class="label">
+                    <span class="label-text">Description</span>
+                  </label>
+                  <textarea class="textarea textarea-bordered"></textarea>
+                </div>
+
+                <div class="flex flex-col">
+                  <label class="label">
+                    <span class="label-text">Price</span>
+                  </label>
+                  <input type="number" class="input input-bordered w-full" />
+                </div>
+
+                <div class="flex flex-col">
+                  <label class="label">
+                    <span class="label-text">Category</span>
+                  </label>
+                  <select class="select select-bordered w-full">
+                    <option disabled selected>Who shot first?</option>
+                    <option>Han Solo</option>
+                    <option>Greedo</option>
+                  </select>
+                </div>
+
+                <div class="flex flex-col">
+                  <label class="label">
+                    <span class="label-text">Image URL</span>
+                  </label>
+                  <div class="flex flex-col gap-3">
+                    <input type="text" placeholder="Main image URL" class="input input-bordered w-full" />
+                    <input type="text" placeholder="Additional image URL" class="input input-bordered w-full" />
+                  </div>
+                </div>
+
+                <div class="flex justify-between items-center">
+                  <div>
+                    <button class="p-2 text-sm rounded-lg bg-green-700 text-white">Add Image</button>
+                  </div>
+                  <div class="flex gap-5">
+                    <button class="p-2 text-sm rounded-lg bg-white border-2 text-black">Cancel</button>
+                    <button class="p-2 text-sm rounded-lg bg-blue-700 text-white">Submit</button>
+                  </div>
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table Product -->
+      <div class="overflow-x-auto">
+        <table class="table w-full">
+          <!-- head -->
+          <thead>
+            <tr>
+              <th class="text-center">No.</th>
+              <th class="text-center">Name</th>
+              <th class="text-center">Category</th>
+              <th class="text-center">Price</th>
+              <th class="text-center">Created by</th>
+              <th class="text-center">Main image</th>
+              <th class="text-center">Images</th>
+              <th class="text-center">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td>Carnivores Soul – WOLVERINE 16 oz Deep Indigo Sanforized</td>
+              <td>Selvedge Denim</td>
+              <td>$ 150</td>
+              <td>mamanDev</td>
+              <td>
+                <div class="w-full flex justify-center">
+                  <img src="https://www.carnivoressoul.com/wp-content/uploads/2020/06/wolverineAbu-1024x1024.jpg"
+                    class="w-20 rounded-lg" alt="">
+                </div>
+              </td>
+              <td>
+                <label for="my-modal-3" class="p-2 text-sm rounded-lg bg-blue-700 text-white cursor-pointer">View
+                  images</label>
+
+                <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+                <div class="modal">
+                  <div class="modal-box relative">
+                    <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                    <div class="flex flex-col justify-center items-center gap-y-5">
+                      <div>
+                        <img src="https://www.carnivoressoul.com/wp-content/uploads/2020/06/wolverineAbu-1024x1024.jpg"
+                          class="w-96 rounded-lg" alt="">
+                      </div>
+                      <div class="carousel flex gap-x-5">
+                        <div class="carousel-item">
+                          <img
+                            src="https://www.carnivoressoul.com/wp-content/uploads/2020/06/wolverineAbu-1024x1024.jpg"
+                            class="w-40 rounded-lg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="https://www.carnivoressoul.com/wp-content/uploads/2020/06/wolverineAbu-1024x1024.jpg"
+                            class="w-40 rounded-lg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="https://www.carnivoressoul.com/wp-content/uploads/2020/06/wolverineAbu-1024x1024.jpg"
+                            class="w-40 rounded-lg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="https://www.carnivoressoul.com/wp-content/uploads/2020/06/wolverineAbu-1024x1024.jpg"
+                            class="w-40 rounded-lg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="flex gap-2">
+                  <button class="p-2 text-sm rounded-lg bg-green-700 text-white w-16">Edit</button>
+                  <button class="p-2 text-sm rounded-lg bg-red-700 text-white w-16">Delete</button>
+                </div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Categories section -->
+      <div class="w-full flex flex-col justify-center items-center p-3">
+        <div class="w-10/12 flex justify-between items-center">
+          <p class="text-xl font-bold">Category List</p>
+          <label for="new-category-modal" class="p-3 text-sm rounded-lg bg-slate-700 text-white cursor-pointer">Add New
+            Category</label>
+
+          <input type="checkbox" id="new-category-modal" class="modal-toggle" />
+          <div class="modal">
+            <div class="modal-box relative">
+              <label for="new-category-modal" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+
+              <p class="font-bold text-2xl text-center">Add New Category</p>
+              <form class="flex flex-col gap-y-7">
+                <div class="flex flex-col">
+                  <label class="label">
+                    <span class="label-text">Category name</span>
+                  </label>
+                  <input type="text" class="input input-bordered w-full" />
+                </div>
+                <div class="flex gap-5">
+                  <button class="p-2 text-sm rounded-lg bg-white border-2 text-black">Cancel</button>
+                  <button class="p-2 text-sm rounded-lg bg-blue-700 text-white">Submit</button>
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table Category -->
+      <div class="overflow-x-auto">
+        <table class="table w-full">
+          <!-- head -->
+          <thead>
+            <tr>
+              <th class="text-center">No.</th>
+              <th class="text-center">Name</th>
+              <th class="text-center">Created At</th>
+              <th class="text-center">Updated At</th>
+              <th class="text-center">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="text-center">1</th>
+              <td class="text-center">Selvedge Denim</td>
+              <td class="text-center">24-02-2023</td>
+              <td class="text-center">24-02-2023</td>
+              <td class="text-center">
+                <div class="flex gap-2 items-center justify-center">
+                  <button class="p-2 text-sm rounded-lg bg-green-700 text-white w-16">Edit</button>
+                  <button class="p-2 text-sm rounded-lg bg-red-700 text-white w-16">Delete</button>
+                </div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product section -->
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "productId": 1,
+    "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2023/02/fortune-Jacket8-1024x1024.jpg"
+  },
+  {
+    "id": 2,
+    "productId": 1,
+    "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2023/02/fortune-Jacket6-1024x1024.jpg"
+  },
+  {
+    "id": 3,
+    "productId": 1,
+    "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2023/02/fortune-Jacket5-1024x1024.jpg"
+  },
+  {
+    "id": 4,
+    "productId": 1,
+    "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2023/02/fortune-Jacket3-1024x1024.jpg"
+  },
+  {
+    "id": 5,
+    "productId": 2,
+    "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2021/11/FTW-Detail-Tokped-2-1.png"
+  },
+  {
+    "id": 6,
+    "productId": 2,
+    "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2021/11/FTW-Detail-Tokped-1024x1024.jpg"
+  },
+  {
+    "id": 7,
+    "productId": 2,
+    "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2021/11/DSCF9521-1024x683.jpg"
+  },
+  {
+    "id": 8,
+    "productId": 2,
+    "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2021/11/DSCF9519-1024x683.jpg"
+  }
+]
