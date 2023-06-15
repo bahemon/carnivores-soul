@@ -1,0 +1,145 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "username": "jamalAdmin",
+      "email": "jamal@admin.com",
+      "password": "12345",
+      "role": "Admin",
+      "phoneNumber": "085885939426",
+      "Address": "Bogor"
+    },
+    {
+      "id": 2,
+      "username": "mamanUser",
+      "email": "maman@mail.com",
+      "password": "12345",
+      "role": "User",
+      "phoneNumber": "085885939426",
+      "Address": "Bogor"
+    },
+    {
+      "id": 3,
+      "username": "tejoUser",
+      "email": "tejo@mail.com",
+      "password": "12345",
+      "role": "User",
+      "phoneNumber": "085885939426",
+      "Address": "Bogor"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Carnivores Soul – FORTUNE Work Jacket – Gold Brown Twill",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 136,
+      "mainImg": "https://www.carnivoressoul.com/wp-content/uploads/2023/02/fortune-Jacket1-1024x1024.jpg",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Carnivores Soul – Custom Culture Bandana",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 51,
+      "mainImg": "https://www.carnivoressoul.com/wp-content/uploads/2021/11/custom-culture-bandana-1.jpg",
+      "categoryId": 2,
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "name": "Carnivores Soul – Tyrano 33 Oz Super Heavy Weight Selvedge Denim",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 281,
+      "mainImg": "https://www.carnivoressoul.com/wp-content/uploads/2023/03/Tyrano8-1024x1024.jpeg",
+      "categoryId": 3,
+      "authorId": 1
+    },
+    {
+      "id": 4,
+      "name": "Carnivores Soul – Future x Oldschool – Official Carnivores Soul x IIMS Collaboration Tee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 20,
+      "mainImg": "https://www.carnivoressoul.com/wp-content/uploads/2022/12/futurexoldschool-front-1024x1024.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    },
+    {
+      "id": 5,
+      "name": "Carnivores Soul – Future x Oldschool – Official Carnivores Soul x IIMS Collaboration Tee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 20,
+      "mainImg": "https://www.carnivoressoul.com/wp-content/uploads/2022/12/futurexoldschool-front-1024x1024.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    },
+    {
+      "id": 6,
+      "name": "Carnivores Soul – Future x Oldschool – Official Carnivores Soul x IIMS Collaboration Tee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 20,
+      "mainImg": "https://www.carnivoressoul.com/wp-content/uploads/2022/12/futurexoldschool-front-1024x1024.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    },
+    {
+      "id": 7,
+      "name": "Carnivores Soul – Future x Oldschool – Official Carnivores Soul x IIMS Collaboration Tee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 20,
+      "mainImg": "https://www.carnivoressoul.com/wp-content/uploads/2022/12/futurexoldschool-front-1024x1024.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    },
+    {
+      "id": 8,
+      "name": "Carnivores Soul – Future x Oldschool – Official Carnivores Soul x IIMS Collaboration Tee",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 20,
+      "mainImg": "https://www.carnivoressoul.com/wp-content/uploads/2022/12/futurexoldschool-front-1024x1024.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Outerwear"
+    },
+    {
+      "id": 2,
+      "name": "Accessories"
+    },
+    {
+      "id": 3,
+      "name": "Selvedge Denim"
+    },
+    {
+      "id": 4,
+      "name": "T-Shirt"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "productId": 1,
+      "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2023/02/fortune-Jacket8-1024x1024.jpg"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2023/02/fortune-Jacket6-1024x1024.jpg"
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2023/02/fortune-Jacket5-1024x1024.jpg"
+    },
+    {
+      "id": 4,
+      "productId": 1,
+      "imgUrl": "https://www.carnivoressoul.com/wp-content/uploads/2023/02/fortune-Jacket3-1024x1024.jpg"
+    }
+  ]
+}

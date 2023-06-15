@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "username": "jamalAdmin",
+    "email": "jamal@admin.com",
+    "password": "12345",
+    "role": "Admin",
+    "phoneNumber": "085885939426",
+    "Address": "Bogor"
+  },
+  {
+    "id": 2,
+    "username": "mamanUser",
+    "email": "maman@mail.com",
+    "password": "12345",
+    "role": "User",
+    "phoneNumber": "085885939426",
+    "Address": "Bogor"
+  },
+  {
+    "id": 3,
+    "username": "tejoUser",
+    "email": "tejo@mail.com",
+    "password": "12345",
+    "role": "User",
+    "phoneNumber": "085885939426",
+    "Address": "Bogor"
+  }
+]
